@@ -70,7 +70,9 @@ body {
     color: #666;
     overflow-x: hidden !important;
 }
-
+.more-content {
+    display: none;
+}
 p {
     font-family: "Helvetica Neue LT Std", 'Arial', 'Sans Serif';
     font-size: 16px;
@@ -5782,7 +5784,7 @@ button.mfp-arrow {
 
 .footer-explore-list li a:hover {
     padding-left: 15px;
-    color: #aa8453);
+    color: #aa8453;
 }
 
 .footer-explore-list li a:before {
