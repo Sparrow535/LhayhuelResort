@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Lhayhuel Resort</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Gilda+Display&display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.html"> <h2>THE CAPPA <span>Luxury Hotel</span></h2> </a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="rooms.html">Rooms</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Services<i
+                                class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="bar.html" class="dropdown-item"><span>Bar</span></a></li>
+                            <li><a href="spa.html" class="dropdown-item"><span>Spa</span></a></li>
+                            <li><a href="dining.html" class="dropdown-item"><span>Dining</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Room Page Slider -->
+    <header class="header slider">
+        <div class="owl-carousel owl-theme">
+            <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+            <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/rooms/busi1.jpg"></div>
+            <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/rooms/busi2.jpg"></div>
+            <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/rooms/lounge.jpg"></div>
+        </div>
+        <!-- arrow down -->
+        <div class="arrow bounce text-center">
+            <a href="#" data-scroll-nav="1" class=""> <i class="ti-arrow-down"></i> </a>
+        </div>
+    </header>
+    <!-- Room Content -->
+    <section class="rooms-page section-padding" data-scroll-index="1">
+        <div class="container">
+            <!-- project content -->
+            <div class="row">
+                <div class="col-md-12">
+                    <span>
+                        <i class="star-rating"></i>
+                        <i class="star-rating"></i>
+                        <i class="star-rating"></i>
+                    </span>
+                    <div class="section-subtitle">Lhayhuel Resort</div>
+                    <div class="section-title">Business Lounge</div>
+                </div>
+                <div class="col-md-8">
+                    <h6>Nu.10,000 / Night</h6>
+                    <p class="mb-30">Interdum et malesu they adamale fames ac anteipsu pimsine faucibus curabitur arcu
+                        site feugiat in tortor in, volutpat sollicitudin libero. Hotel non lorem acer suscipit bibendum
+                        vulla facilisi nedeuter nunc volutpa mollis sapien velet conseyer turpeutionyer masin libero
+                        sempe mollis.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Check-in</h6>
+                            <ul class="list-unstyled page-list mb-30">
+                                <li>
+                                    <div class="page-list-icon"> <span class="ti-check"></span> </div>
+                                    <div class="page-list-text">
+                                        <p>Check-in from 9:00 AM - anytime</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="page-list-icon"> <span class="ti-check"></span> </div>
+                                    <div class="page-list-text">
+                                        <p>Early check-in subject to availability</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Check-out</h6>
+                            <ul class="list-unstyled page-list mb-30">
+                                <li>
+                                    <div class="page-list-icon"> <span class="ti-check"></span> </div>
+                                    <div class="page-list-text">
+                                        <p>Check-out before noon</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="page-list-icon"> <span class="ti-check"></span> </div>
+                                    <div class="page-list-text">
+                                        <p>Express check-out</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <h6>Special check-in instructions</h6>
+                            <p>Guests will receive an email 5 days before arrival with check-in instructions; front desk
+                                staff will greet guests on arrival For more details, please contact the property using
+                                the information on the booking confirmation.</p>
+                        </div>
+                        <div class="col-md-12">
+                            <h6>Pets</h6>
+                            <p>Pets not allowed</p>
+                        </div>
+                        <div class="col-md-12">
+                            <h6>Children and extra beds</h6>
+                            <p>Children are welcome Kids stay free! Children stay free when using existing bedding;
+                                children may not be eligible for complimentary breakfast Rollaway/extra beds are
+                                available for $ 10 per day.</p>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="butn-dark mt-15 mb-30"> <a href="#booking-section"><span>Book Now</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-md-1">
+                    <h6>Amenities</h6>
+                    <ul class="list-unstyled page-list mb-30">
+                        <li>
+                            <div class="page-list-icon"> <span class="flaticon-group"></span> </div>
+                            <div class="page-list-text">
+                                <p>1-2 Persons</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="page-list-icon"> <span class="flaticon-wifi"></span> </div>
+                            <div class="page-list-text">
+                                <p>Free Wifi</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="page-list-icon"> <span class="flaticon-clock-1"></span> </div>
+                            <div class="page-list-text">
+                                <p>200 sqft room</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="page-list-icon"> <span class="flaticon-breakfast"></span> </div>
+                            <div class="page-list-text">
+                                <p>Breakfast</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="page-list-icon"> <span class="flaticon-towel"></span> </div>
+                            <div class="page-list-text">
+                                <p>Towels</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="page-list-icon"> <span class="flaticon-swimming"></span> </div>
+                            <div class="page-list-text">
+                                <p>Swimming Pool</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Similiar Room -->
+    <section class="rooms1 section-padding bg-blck">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-subtitle"><span>Lhayhuel Resort</span></div>
+                    <div class="section-title"><span>Similar Rooms</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="position-re o-hidden"> <img src="img/rooms/1.jpg" alt=""> </div> <span
+                                class="category"><a href="#booking-section">Book</a></span>
+                            <div class="con">
+                                <h6>Nu.2,250 / Night</h6>
+                                <h5><a href="standardRoom.html">Standard Room</a> </h5>
+                                <div class="line"></div>
+                                <div class="row facilities">
+                                    <div class="col col-md-7">
+                                    </div>
+                                    <div class="col col-md-5 text-end">
+                                        <div class="permalink"><a href="standardRoom.html">Details <i
+                                                    class="ti-arrow-right"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="position-re o-hidden"> <img src="img/rooms/2.jpg" alt=""> </div> <span
+                                class="category"><a href="#booking-section">Book</a></span>
+                            <div class="con">
+                                <h6>Nu.2,500 / Night</h6>
+                                <h5><a href="standardRoomTwin.html">Standard Room Twin Bed</a></h5>
+                                <div class="line"></div>
+                                <div class="row facilities">
+                                    <div class="col col-md-7">
+                                    </div>
+                                    <div class="col col-md-5 text-end">
+                                        <div class="permalink"><a href="standardRoomTwin.html">Details <i
+                                                    class="ti-arrow-right"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="position-re o-hidden"> <img src="img/rooms/3.jpg" alt=""> </div> <span
+                                class="category"><a href="#booking-section">Book</a></span>
+                            <div class="con">
+                                <h6>Nu.3,720 / Night</h6>
+                                <h5><a href="luxurySuite.html">Luxury Suite</a></h5>
+                                <div class="line"></div>
+                                <div class="row facilities">
+                                    <div class="col col-md-7">
+                                    </div>
+                                    <div class="col col-md-5 text-end">
+                                        <div class="permalink"><a href="luxurySuite.html">Details <i
+                                                    class="ti-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="position-re o-hidden"> <img src="img/rooms/5.jpg" alt=""> </div> <span
+                                class="category"><a href="#booking-section">Book</a></span>
+                            <div class="con">
+                                <h6>Nu.5,000 / Night</h6>
+                                <h5><a href="suiteKingSize.html">Suite King Size</a></h5>
+                                <div class="line"></div>
+                                <div class="row facilities">
+                                    <div class="col col-md-7">
+                                    </div>
+                                    <div class="col col-md-5 text-end">
+                                        <div class="permalink"><a href="suiteKingSize.html">Details <i
+                                                    class="ti-arrow-right"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="position-re o-hidden"> <img src="img/rooms/conference.jpg" alt=""> </div> <span
+                                class="category"><a href="#booking-section">Book</a></span>
+                            <div class="con">
+                                <h6>Nu.25,000 / Night</h6>
+                                <h5><a href="conferenceHall.html">Conference Hall</a></h5>
+                                <div class="line"></div>
+                                <div class="row facilities">
+                                    <div class="col col-md-7">
+                                    </div>
+                                    <div class="col col-md-5 text-end">
+                                        <div class="permalink"><a href="conferenceHall.html">Details <i
+                                                    class="ti-arrow-right"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Reservation & Booking Form -->
+    <section class="testimonials" id="booking-section">
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/1.jpg"
+            data-overlay-dark="2">
+            <div class="container">
+                <div class="row">
+                    <!-- Reservation -->
+                    <div class="col-md-5 mb-30 mt-30">
+                        <p>
+                            <i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i>
+                        </p>
+                        <h5>
+                            Each of our guest rooms feature a private bath, wi-fi, cable
+                            television and include full breakfast.
+                        </h5>
+                        <div class="reservations mb-30">
+                            <div class="icon color-1">
+                                <span class="flaticon-call"></span>
+                            </div>
+                            <div class="text">
+                                <p class="color-1">Reservation</p>
+                                <a class="color-1" href="tel:+975 17171696">+975 17171696</a>
+                            </div>
+                        </div>
+                        <p>
+                            <i class="ti-check"></i><small>Call us, it's toll-free.</small>
+                        </p>
+                    </div>
+                    <!-- Booking From -->
+                    <div class="col-md-5 mb-30 offset-md-1">
+                        <h3>Get in Touch</h3>
+                        <form method="post" class="contact__form" action="mail.php">
+                            <!-- form message -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                        Your message was sent successfully.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- form elements -->
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input name="name" type="text" placeholder="Your Name *" required />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="email" type="email" placeholder="Your Email *" required />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="phone" type="text" placeholder="Your Number *" required />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="subject" type="text" placeholder="Subject *" required />
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *"
+                                        required></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="butn-dark2">
+                                        <span>Send Message</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-column footer-about">
+                            <h3 class="footer-title">About Hotel</h3>
+                            <p class="footer-about-text">Lhayhuel sits perched majestically along the heart of the Paro
+                                Chhu, within the luscious village of Paro. Conveniently located ten minutes from the
+                                Airport
+                                and yet the view of the valley under your nose. Celebrate the beauty and bounty
+                                of Paro through the culinary experience highlighting local ingredients, and a luxury
+                                hotel
+                                spa featuring bespoken pampering rituals.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="footer-column footer-explore clearfix">
+                            <h3 class="footer-title">Explore</h3>
+                            <ul class="footer-explore-list list-unstyled">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="rooms.html">Rooms</a></li>
+                                <li><a href="restaurant.html">Restaurant</a></li>
+                                <li><a href="bar.html">Bar</a></li>
+                                <li><a href="spa.html">Spa</a></li>
+                                <li><a href="about.html">About Hotel</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="terms.html">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-column footer-contact">
+                            <h3 class="footer-title">Contact</h3>
+                            <p class="footer-contact-text">Bonday, Lung-Nyi Gewog <br> Postal Code: 12001<br> Paro,
+                                Bhutan.
+                            </p>
+                            <div class="footer-contact-info">
+                                <p class="footer-contact-phone"><span class="flaticon-call"></span> +975 17171696</p>
+                                <p class="footer-contact-mail">info@lhayhuelhotel.com</p>
+                            </div>
+                            <div class="footer-about-social-list">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                                <a href="#"><i class="ti-twitter"></i></a>
+                                <a href="#"><i class="ti-youtube"></i></a>
+                                <a href="#"><i class="ti-facebook"></i></a>
+                                <a href="#"><i class="ti-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-inner">
+                            <p class="footer-bottom-copy-right">© Copyright 2022 by <a href="#">lhayhuel.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
