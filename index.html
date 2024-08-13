@@ -1,436 +1,378 @@
 <!DOCTYPE html>
 <html lang="zxx">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <title>Lhayhuel Resort</title>
-    <link rel="shortcut icon" href="img/favlogo.jpg" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Gilda+Display&display=swap"
-    />
-    <link rel="stylesheet" href="css/plugins.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <!-- Preloader -->
-    <div class="preloader-bg"></div>
-    <div id="preloader">
-      <div id="preloader-status">
-        <div class="preloader-position loader"><span></span></div>
-      </div>
-    </div>
-    <!-- Progress scroll to top -->
-    <div class="progress-wrap cursor-pointer">
-      <svg
-        class="progress-circle svg-content"
-        width="100%"
-        height="100%"
-        viewBox="-1 -1 102 102"
-      >
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-      </svg>
-    </div>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <!-- Logo -->
-        <div class="logo-wrapper">
-          <a class="logo" href="index.html">
-            <img src="img/logo.png" class="logo-img" alt="" />
-          </a>
-          <!-- <a class="logo" href="index.html"> <h2>THE CAPPA <span>Luxury Hotel</span></h2> </a> -->
-        </div>
-        <!-- Button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbar"
-          aria-controls="navbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"><i class="ti-menu"></i></span>
-        </button>
-        <!-- Menu -->
-        <div class="collapse navbar-collapse" id="navbar">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="rooms.html">Rooms</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                data-bs-auto-close="outside"
-                aria-expanded="false"
-                >Services<i class="ti-angle-down"></i
-              ></a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="bar.html" class="dropdown-item"><span>Bar</span></a>
-                </li>
-                <li>
-                  <a href="spa.html" class="dropdown-item"><span>Spa</span></a>
-                </li>
-                <li>
-                  <a href="dining.html" class="dropdown-item"
-                    ><span>Dining</span></a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Lhayhuel Resort</title>
+  <link rel="shortcut icon" href="img/favlogo.jpg" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Gilda+Display&display=swap" />
+  <link rel="stylesheet" href="css/plugins.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <!-- Slider -->
-    <header class="header slider-fade">
-      <div class="owl-carousel owl-theme">
-        <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
-        <div
-          class="text-center item bg-img"
-          data-overlay-dark="2"
-          data-background="img/slider/1.jpg"
-        >
-          <div class="v-middle caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-10 offset-md-1">
-                  <span>
-                    <i class="star-rating"></i>
-                    <i class="star-rating"></i>
-                    <i class="star-rating"></i>
-                  </span>
-                  <h4>Lhayuel Resort</h4>
-                  <h1>Where Tranquility is a Lifestyle</h1>
-                  <div class="butn-light mt-30 mb-30">
-                    <a href="#" data-scroll-nav="1"
-                      ><span>Rooms & Suites</span></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="text-center item bg-img"
-          data-overlay-dark="2"
-          data-background="img/slider/2024-04-17.jpg"
-        >
-          <div class="v-middle caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-10 offset-md-1">
-                  <span>
-                    <i class="star-rating"></i>
-                    <i class="star-rating"></i>
-                    <i class="star-rating"></i>
-                  </span>
-                  <h4>Unique Place to Relax & Enjoy</h4>
-                  <h1>The Perfect Spot For You</h1>
-                  <div class="butn-light mt-30 mb-30">
-                    <a href="#" data-scroll-nav="1"
-                      ><span>Rooms & Suites</span></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="text-center item bg-img"
-          data-overlay-dark="3"
-          data-background="img/rooms/18.jpg"
-        >
-          <div class="v-middle caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-10 offset-md-1">
-                  <span>
-                    <i class="star-rating"></i>
-                    <i class="star-rating"></i>
-                    <i class="star-rating"></i>
-                  </span>
-                  <h4>The Ultimate Experience</h4>
-                  <h1>Enjoy The Best Moments of Life</h1>
-                  <div class="butn-light mt-30 mb-30">
-                    <a href="#" data-scroll-nav="1"
-                      ><span>Rooms & Suites</span></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- slider reservation -->
-      <div class="reservation">
-        <a href="tel:+975 17171696">
-          <div class="icon d-flex justify-content-center align-items-center">
-            <i class="flaticon-call"></i>
-          </div>
-          <div class="call"><span>+975 17171696</span> <br />Reservation</div>
+<body>
+  <!-- Preloader -->
+  <div class="preloader-bg"></div>
+  <div id="preloader">
+    <div id="preloader-status">
+      <div class="preloader-position loader"><span></span></div>
+    </div>
+  </div>
+  <!-- Progress scroll to top -->
+  <div class="progress-wrap cursor-pointer">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Logo -->
+      <div class="logo-wrapper">
+        <a class="logo" href="index.html">
+          <img src="img/logo.png" class="logo-img" alt="" />
         </a>
+        <!-- <a class="logo" href="index.html"> <h2>THE CAPPA <span>Luxury Hotel</span></h2> </a> -->
       </div>
-    </header>
-    <!-- About -->
-    <section class="about section-padding">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-6 mb-30 animate-box"
-            data-animate-effect="fadeInUp"
-          >
-            <span>
-              <i class="star-rating"></i>
-              <i class="star-rating"></i>
-              <i class="star-rating"></i>
-            </span>
-            <div class="section-title">Lhayuel Resort</div>
-            <p>
-              At Lhayhuel, we prioritize delivering high-quality care and
-              service. Our vision is to exceed your expectations with our
-              standards. Our roots run deep in this valley and we strive to
-              provide an authentic culinary and lifestyle experience.
-            </p>
-            <p>
-              As proud children of the valley, we are committed to sharing the
-              love and beauty it has bestowed upon us.
-            </p>
-            <!-- call -->
-            <div class="reservations">
-              <div class="icon"><span class="flaticon-call"></span></div>
-              <div class="text">
-                <p>Reservation</p>
-                <a href="tel:+975 17171696">+975 17171696</a>
+      <!-- Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="ti-menu"></i></span>
+      </button>
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rooms.html">Rooms</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              data-bs-auto-close="outside" aria-expanded="false">Services<i class="ti-angle-down"></i></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="bar.html" class="dropdown-item"><span>Bar</span></a>
+              </li>
+              <li>
+                <a href="spa.html" class="dropdown-item"><span>Spa</span></a>
+              </li>
+              <li>
+                <a href="dining.html" class="dropdown-item"><span>Dining</span></a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Slider -->
+  <header class="header slider-fade">
+    <div class="owl-carousel owl-theme">
+      <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+      <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/slider/1.jpg">
+        <div class="v-middle caption">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 offset-md-1">
+                <span>
+                  <i class="star-rating"></i>
+                  <i class="star-rating"></i>
+                  <i class="star-rating"></i>
+                </span>
+                <h4>Lhayuel Resort</h4>
+                <h1>Where Tranquility is a Lifestyle</h1>
+                <div class="butn-light mt-30 mb-30">
+                  <a href="#" data-scroll-nav="1"><span>Rooms & Suites</span></a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
-            <img src="img/rooms/18.jpg" alt="" class="mt-90 mb-30" />
-          </div>
-          <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
-            <img src="img/slider/7.jpg" alt="" />
+        </div>
+      </div>
+      <div class="text-center item bg-img" data-overlay-dark="2" data-background="img/slider/2024-04-17.jpg">
+        <div class="v-middle caption">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 offset-md-1">
+                <span>
+                  <i class="star-rating"></i>
+                  <i class="star-rating"></i>
+                  <i class="star-rating"></i>
+                </span>
+                <h4>Unique Place to Relax & Enjoy</h4>
+                <h1>The Perfect Spot For You</h1>
+                <div class="butn-light mt-30 mb-30">
+                  <a href="#" data-scroll-nav="1"><span>Rooms & Suites</span></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Rooms -->
-    <section class="rooms2 section-padding bg-cream" data-scroll-index="1">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-subtitle">Lhayhuel Resort</div>
-            <div class="section-title">Rooms & Suites</div>
+      <div class="text-center item bg-img" data-overlay-dark="3" data-background="img/rooms/18.jpg">
+        <div class="v-middle caption">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 offset-md-1">
+                <span>
+                  <i class="star-rating"></i>
+                  <i class="star-rating"></i>
+                  <i class="star-rating"></i>
+                </span>
+                <h4>The Ultimate Experience</h4>
+                <h1>Enjoy The Best Moments of Life</h1>
+                <div class="butn-light mt-30 mb-30">
+                  <a href="#" data-scroll-nav="1"><span>Rooms & Suites</span></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="owl-carousel owl-theme">
-              <div class="rooms2">
-                <figure>
-                  <img src="img/rooms/3.jpg" alt="" class="img-fluid" />
-                </figure>
-                <div class="caption padding-left">
-                  <h3>Nu.3,720 <span>/ Night</span></h3>
-                  <h4><a href="luxurySuite.html">Luxury Suite</a></h4>
-                  <p>
-                    Whether on a honeymoon or a family vacation, celebrate the
-                    warmth of their existence by the fireplace. The spacious
-                    room holds everything you need to call it “home away from
-                    home.” The paranomic view of the famous Paro Bonday town,
-                    the Airport and Paro Chhu is everything you need to make
-                    your morning coffee complete.
-                  </p>
-                  <div class="row room-facilities">
-                    <div class="col-md-4">
-                      <ul>
-                        <li><i class="flaticon-group"></i> 1-2 Persons</li>
-                        <li><i class="flaticon-wifi"></i> Free Wifi</li>
-                      </ul>
-                    </div>
-                    <div class="col-md-4">
-                      <ul>
-                        <li><i class="flaticon-bed"></i> 1 King Bed</li>
-                        <li><i class="flaticon-breakfast"></i> Breakfast</li>
-                      </ul>
-                    </div>
+      </div>
+    </div>
+    <!-- slider reservation -->
+    <div class="reservation">
+      <a href="tel:+975 17171696">
+        <div class="icon d-flex justify-content-center align-items-center">
+          <i class="flaticon-call"></i>
+        </div>
+        <div class="call"><span>+975 17171696</span> <br />Reservation</div>
+      </a>
+    </div>
+  </header>
+  <!-- About -->
+  <section class="about section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
+          <span>
+            <i class="star-rating"></i>
+            <i class="star-rating"></i>
+            <i class="star-rating"></i>
+          </span>
+          <div class="section-title">Lhayuel Resort</div>
+          <p>
+            At Lhayhuel, we prioritize delivering high-quality care and
+            service. Our vision is to exceed your expectations with our
+            standards. Our roots run deep in this valley and we strive to
+            provide an authentic culinary and lifestyle experience.
+          </p>
+          <p>
+            As proud children of the valley, we are committed to sharing the
+            love and beauty it has bestowed upon us.
+          </p>
+          <!-- call -->
+          <div class="reservations">
+            <div class="icon"><span class="flaticon-call"></span></div>
+            <div class="text">
+              <p>Reservation</p>
+              <a href="tel:+975 17171696">+975 17171696</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
+          <img src="img/rooms/18.jpg" alt="" class="mt-90 mb-30" />
+        </div>
+        <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
+          <img src="img/slider/7.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Rooms -->
+  <section class="rooms2 section-padding bg-cream" data-scroll-index="1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-subtitle">Lhayhuel Resort</div>
+          <div class="section-title">Rooms & Suites</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="owl-carousel owl-theme">
+            <div class="rooms2">
+              <figure>
+                <img src="img/rooms/3.jpg" alt="" class="img-fluid" />
+              </figure>
+              <div class="caption padding-left">
+                <h3>Nu.3,720 <span>/ Night</span></h3>
+                <h4><a href="luxurySuite.html">Luxury Suite</a></h4>
+                <p>
+                  Whether on a honeymoon or a family vacation, celebrate the
+                  warmth of their existence by the fireplace. The spacious
+                  room holds everything you need to call it “home away from
+                  home.” The paranomic view of the famous Paro Bonday town,
+                  the Airport and Paro Chhu is everything you need to make
+                  your morning coffee complete.
+                </p>
+                <div class="row room-facilities">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><i class="flaticon-group"></i> 1-2 Persons</li>
+                      <li><i class="flaticon-wifi"></i> Free Wifi</li>
+                    </ul>
                   </div>
-                  <hr class="border-2" />
-                  <div class="info-wrapper">
-                    <div class="more">
-                      <a href="luxurySuite.html" class="link-btn" tabindex="0"
-                        >Details <i class="ti-arrow-right"></i
-                      ></a>
-                    </div>
-                    <div class="butn-dark">
-                      <a href="#booking-Section"><span>Book Now</span></a>
-                    </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li><i class="flaticon-bed"></i> 1 King Bed</li>
+                      <li><i class="flaticon-breakfast"></i> Breakfast</li>
+                    </ul>
+                  </div>
+                </div>
+                <hr class="border-2" />
+                <div class="info-wrapper">
+                  <div class="more">
+                    <a href="luxurySuite.html" class="link-btn" tabindex="0">Details <i class="ti-arrow-right"></i></a>
+                  </div>
+                  <div class="butn-dark">
+                    <a href="#booking-Section"><span>Book Now</span></a>
                   </div>
                 </div>
               </div>
-              <div class="rooms2 left">
-                <figure>
-                  <img src="img/rooms/1.jpg" alt="" class="img-fluid" />
-                </figure>
-                <div class="caption padding-left">
-                  <h3>Nu.2,250 <span>/ Night</span></h3>
-                  <h4><a href="standardRoom.html">Standard Room</a></h4>
-                  <p>
-                    Wake up to the slow chantings of prayers and spiritual music
-                    from the Zangtopelri (“the word directly translating to
-                    Paradise” ) just a few meters away from your room. Not only
-                    does the sound fill your soul, but allow your eyes to
-                    witness the tiny essence of “paradise.”
-                  </p>
-                  <div class="row room-facilities">
-                    <div class="col-md-4">
-                      <ul>
-                        <li><i class="flaticon-group"></i> 1 Person</li>
-                        <li><i class="flaticon-wifi"></i> Free Wifi</li>
-                      </ul>
-                    </div>
-                    <div class="col-md-4">
-                      <ul>
-                        <li><i class="flaticon-bed"></i> Single Bed</li>
-                        <li><i class="flaticon-breakfast"></i> Breakfast</li>
-                      </ul>
-                    </div>
+            </div>
+            <div class="rooms2 left">
+              <figure>
+                <img src="img/rooms/1.jpg" alt="" class="img-fluid" />
+              </figure>
+              <div class="caption padding-left">
+                <h3>Nu.2,250 <span>/ Night</span></h3>
+                <h4><a href="standardRoom.html">Standard Room</a></h4>
+                <p>
+                  Wake up to the slow chantings of prayers and spiritual music
+                  from the Zangtopelri (“the word directly translating to
+                  Paradise” ) just a few meters away from your room. Not only
+                  does the sound fill your soul, but allow your eyes to
+                  witness the tiny essence of “paradise.”
+                </p>
+                <div class="row room-facilities">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><i class="flaticon-group"></i> 1 Person</li>
+                      <li><i class="flaticon-wifi"></i> Free Wifi</li>
+                    </ul>
                   </div>
-                  <hr class="border-2" />
-                  <div class="info-wrapper">
-                    <div class="more">
-                      <a href="standardRoom.html" class="link-btn" tabindex="0"
-                        >Details <i class="ti-arrow-right"></i
-                      ></a>
-                    </div>
-                    <div class="butn-dark">
-                      <a href="#booking-Section"><span>Book Now</span></a>
-                    </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li><i class="flaticon-bed"></i> Single Bed</li>
+                      <li><i class="flaticon-breakfast"></i> Breakfast</li>
+                    </ul>
+                  </div>
+                </div>
+                <hr class="border-2" />
+                <div class="info-wrapper">
+                  <div class="more">
+                    <a href="standardRoom.html" class="link-btn" tabindex="0">Details <i class="ti-arrow-right"></i></a>
+                  </div>
+                  <div class="butn-dark">
+                    <a href="#booking-Section"><span>Book Now</span></a>
                   </div>
                 </div>
               </div>
-              <div class="rooms2">
-                <figure>
-                  <img src="img/rooms/twin.jpg" alt="" class="img-fluid" />
-                </figure>
-                <div class="caption padding-left">
-                  <h3>Nu.2,500 <span>/ Night</span></h3>
-                  <h4>
-                    <a href="standardRoomTwin.html">Standard Room Twin Bed</a>
-                  </h4>
-                  <p>
-                    To preserve the essence of old Bhutanese architect, the
-                    earthen block units with timber floorings is all it would
-                    take to get a taste of the Bhutanese way of life. As in the
-                    past, the earthen blocks have been used to retain cool
-                    temperatures during the summer and the heat to ensure cozy
-                    winter nights.
-                  </p>
-                  <div class="row room-facilities">
-                    <div class="col-md-4">
-                      <ul>
-                        <li><i class="flaticon-group"></i> 2 Persons</li>
-                        <li><i class="flaticon-wifi"></i> Free Wifi</li>
-                      </ul>
-                    </div>
-                    <div class="col-md-4">
-                      <ul>
-                        <li><i class="flaticon-bed"></i> Twin Bed</li>
-                        <li><i class="flaticon-breakfast"></i> Breakfast</li>
-                      </ul>
-                    </div>
-                    <!-- + -->
+            </div>
+            <div class="rooms2">
+              <figure>
+                <img src="img/rooms/twin.jpg" alt="" class="img-fluid" />
+              </figure>
+              <div class="caption padding-left">
+                <h3>Nu.2,500 <span>/ Night</span></h3>
+                <h4>
+                  <a href="standardRoomTwin.html">Standard Room Twin Bed</a>
+                </h4>
+                <p>
+                  To preserve the essence of old Bhutanese architect, the
+                  earthen block units with timber floorings is all it would
+                  take to get a taste of the Bhutanese way of life. As in the
+                  past, the earthen blocks have been used to retain cool
+                  temperatures during the summer and the heat to ensure cozy
+                  winter nights.
+                </p>
+                <div class="row room-facilities">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><i class="flaticon-group"></i> 2 Persons</li>
+                      <li><i class="flaticon-wifi"></i> Free Wifi</li>
+                    </ul>
                   </div>
-                  <hr class="border-2" />
-                  <div class="info-wrapper">
-                    <div class="more">
-                      <a
-                        href="standardRoomTwin.html"
-                        class="link-btn"
-                        tabindex="0"
-                        >Details <i class="ti-arrow-right"></i
-                      ></a>
-                    </div>
-                    <div class="butn-dark">
-                      <a href="#booking-Section"><span>Book Now</span></a>
-                    </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li><i class="flaticon-bed"></i> Twin Bed</li>
+                      <li><i class="flaticon-breakfast"></i> Breakfast</li>
+                    </ul>
+                  </div>
+                  <!-- + -->
+                </div>
+                <hr class="border-2" />
+                <div class="info-wrapper">
+                  <div class="more">
+                    <a href="standardRoomTwin.html" class="link-btn" tabindex="0">Details <i
+                        class="ti-arrow-right"></i></a>
+                  </div>
+                  <div class="butn-dark">
+                    <a href="#booking-Section"><span>Book Now</span></a>
                   </div>
                 </div>
               </div>
-              <div class="rooms2 left">
-                <figure>
-                  <img src="img/rooms/5.jpg" alt="" class="img-fluid" />
-                </figure>
-                <div class="caption padding-left">
-                  <h3>Nu.6,000 <span>/ Night</span></h3>
-                  <h4><a href="suiteKingSize.html">King-Size Suite</a></h4>
-                  <p>
-                    These rooms have a balcony that allows for the complete
-                    morning experience overlooking the valley and the airport.
-                    The sky view from these rooms are particularly what we pride
-                    in, be it the sunrise or the sunset, it gives you the front
-                    row seat to witness the magic of nature.
-                  </p>
-                  <div class="row room-facilities">
-                    <div class="col-md-4">
-                      <ul>
-                        <li><i class="flaticon-group"></i> 2 People</li>
-                        <li><i class="flaticon-wifi"></i> Free Wifi</li>
-                      </ul>
-                    </div>
-                    <div class="col-md-4">
-                      <ul>
-                        <li><i class="flaticon-bed"></i> King-size Bed</li>
-                        <li><i class="flaticon-breakfast"></i> Breakfast</li>
-                      </ul>
-                    </div>
-                    <!-- <div class="col-md-4">
+            </div>
+            <div class="rooms2 left">
+              <figure>
+                <img src="img/rooms/5.jpg" alt="" class="img-fluid" />
+              </figure>
+              <div class="caption padding-left">
+                <h3>Nu.6,000 <span>/ Night</span></h3>
+                <h4><a href="suiteKingSize.html">King-Size Suite</a></h4>
+                <p>
+                  These rooms have a balcony that allows for the complete
+                  morning experience overlooking the valley and the airport.
+                  The sky view from these rooms are particularly what we pride
+                  in, be it the sunrise or the sunset, it gives you the front
+                  row seat to witness the magic of nature.
+                </p>
+                <div class="row room-facilities">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><i class="flaticon-group"></i> 2 People</li>
+                      <li><i class="flaticon-wifi"></i> Free Wifi</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li><i class="flaticon-bed"></i> King-size Bed</li>
+                      <li><i class="flaticon-breakfast"></i> Breakfast</li>
+                    </ul>
+                  </div>
+                  <!-- <div class="col-md-4">
                       <ul>
                         <li><i class="flaticon-clock-1"></i> 200 sqft Room</li>
                         <li><i class="flaticon-swimming"></i> Swimming Pool</li>
                       </ul>
                     </div> -->
+                </div>
+                <hr class="border-2" />
+                <div class="info-wrapper">
+                  <div class="more">
+                    <a href="suiteKingSize.html" class="link-btn" tabindex="0">Details <i
+                        class="ti-arrow-right"></i></a>
                   </div>
-                  <hr class="border-2" />
-                  <div class="info-wrapper">
-                    <div class="more">
-                      <a href="suiteKingSize.html" class="link-btn" tabindex="0"
-                        >Details <i class="ti-arrow-right"></i
-                      ></a>
-                    </div>
-                    <div class="butn-dark">
-                      <a href="#booking-Section"><span>Book Now</span></a>
-                    </div>
+                  <div class="butn-dark">
+                    <a href="#booking-Section"><span>Book Now</span></a>
                   </div>
                 </div>
               </div>
@@ -438,441 +380,368 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- Pricing -->
+    </div>
+  </section>
+  <!-- Pricing -->
 
-    <!-- Promo Video -->
-    <section
-      class="video-wrapper video section-padding bg-img bg-fixed"
-      data-overlay-dark="3"
-      data-background="img/rooms/lounge.jpg"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 offset-md-2 text-center">
-            <span
-              ><i class="star-rating"></i><i class="star-rating"></i
-              ><i class="star-rating"></i
-            ></span>
-            <div class="section-subtitle">
-              <span>Lhayhuel Resort </span>
+  <!-- Promo Video -->
+  <section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="3"
+    data-background="img/rooms/lounge.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+          <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
+          <div class="section-subtitle">
+            <span>Lhayhuel Resort </span>
+          </div>
+          <div class="section-title"><span>Promotional Video</span></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center col-md-12">
+          <a class="vid" href="https://youtu.be/7BGNAGahig8">
+            <div class="vid-butn">
+              <span class="icon">
+                <i class="ti-control-play"></i>
+              </span>
             </div>
-            <div class="section-title"><span>Promotional Video</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Facilties -->
+  <section class="facilties section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-subtitle">Our Services</div>
+          <div class="section-title">Hotel Facilities</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+            <span class="material-symbols-outlined"> brush </span>
+            <h5>Handicraft</h5>
+            <p>
+              Our tiny on site handicraft, despite its size offers a wide range of gift items, all handcrafted by
+              Bhutanese Artisans.
+            <div class="facility-shape">
+              <span class="flaticon-world"></span>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="text-center col-md-12">
-            <a class="vid" href="https://youtu.be/7BGNAGahig8">
-              <div class="vid-butn">
-                <span class="icon">
-                  <i class="ti-control-play"></i>
-                </span>
-              </div>
-            </a>
+        <div class="col-md-4">
+          <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+            <span class="flaticon-car"></span>
+            <h5>Parking Space</h5>
+            <p>
+              Our compact parking area, though modest in size, is designed to accommodate a variety of vehicles.
+            </p>
+            <div class="facility-shape">
+              <span class="flaticon-car"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+            <span class="material-symbols-outlined"> library_books </span>
+            <h5>Library/lobby</h5>
+            <p>
+              Our cozy library offers a carefully selection of books for all, providing a serene space for reading and
+              reflection.
+            </p>
+            <div class="facility-shape">
+              <span class="flaticon-bed"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+            <span class="material-symbols-outlined"> sports_bar </span>
+            <h5>Bar</h5>
+            <p>
+              Amongst our three mini bars, our OUTDOOR bar, offers a wide range of vintage whiskies, and wines.
+            </p>
+            <div class="facility-shape">
+              <span class="flaticon-swimming"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+            <span class="flaticon-wifi"></span>
+            <h5>Free wifi</h5>
+            <p>
+              Our complimentary Wi-Fi service ensures you stay connected effortlessly, with ultimate convenience
+              wherever you need it
+            </p>
+            <div class="facility-shape">
+              <span class="flaticon-wifi"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="single-facility animate-box" data-animate-effect="fadeInUp">
+            <span class="material-symbols-outlined"> mic_external_on </span>
+            <h5>Karaoke</h5>
+            <p>
+              Our karaoke setup offers endless fun with a wide selection of songs to choose and show your vocal talents.
+            </p>
+            <div class="facility-shape">
+              <span class="flaticon-breakfast"></span>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Facilties -->
-    <section class="facilties section-padding">
+    </div>
+  </section>
+  <!-- Team -->
+  <!-- Services -->
+  <section class="services section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
+          <div class="img left">
+            <a href="dining.html"><img src="img\restaurant\rest.jpg" alt="" /></a>
+          </div>
+        </div>
+        <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
+          <div class="content">
+            <div class="cont text-left">
+              <div class="info">
+                <h6>Discover</h6>
+              </div>
+              <h4>The Restaurant</h4>
+              <p>
+                Our restaurant offers a diverse menu featuring both local and international cuisines, crafted with
+                fresh, high-quality ingredients
+              </p>
+              <div class="butn-dark">
+                <a href="dining.html"><span>Learn More</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 bg-cream p-0 order2 valign animate-box" data-animate-effect="fadeInLeft">
+          <div class="content">
+            <div class="cont text-left">
+              <div class="info">
+                <h6>Experiences</h6>
+              </div>
+              <h4>Spa Center</h4>
+              <p>
+                Extending a wide range of massage options, we use local homeopathic oils which have been known for its
+                healing properties.
+
+              </p>
+              <div class="butn-dark">
+                <a href="spa.html"><span>Learn More</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
+          <div class="img">
+            <a href="spa-wellness.html"><img src="img/spa/bhutan.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
+          <div class="img left">
+            <a href="bar.html"><img src="img/slider/8.jpg" alt="" /></a>
+          </div>
+        </div>
+        <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
+          <div class="content">
+            <div class="cont text-left">
+              <div class="info">
+                <h6>Modern</h6>
+              </div>
+              <h4>Refresing Bar</h4>
+              <p>
+                Amongst our three mini bars, our OUTDOOR bar (the purple inn), offers a wide range of vintage whiskies,
+                and wines from all over
+                the world.
+
+              </p>
+              <div class="butn-dark">
+                <a href="bar.html"><span>Learn More</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- News -->
+
+  <!-- Reservation & Booking Form -->
+  <section id="booking-Section" class="testimonials">
+    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/1.jpg"
+      data-overlay-dark="2">
+      <div class="container">
+        <div class="row">
+          <!-- Reservation -->
+          <div class="col-md-5 mb-30 mt-30">
+            <p>
+              <i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i>
+            </p>
+            <h5>
+              Each of our guest rooms feature a private bath, wi-fi, cable
+              television and include full breakfast.
+            </h5>
+            <div class="reservations mb-30">
+              <div class="icon color-1">
+                <span class="flaticon-call"></span>
+              </div>
+              <div class="text">
+                <p class="color-1">Reservation</p>
+                <a class="color-1" href="tel:+975 17171696">+975 17171696</a>
+              </div>
+            </div>
+            <p>
+              <i class="ti-check"></i><small>Call us, it's toll-free.</small>
+            </p>
+          </div>
+          <!-- Booking From -->
+          <div class="col-md-5 mb-30 offset-md-1">
+            <h3 id="booking-Section">Get in Touch</h3>
+            <form method="post" class="contact__form" action="mail.php">
+              <!-- form message -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                    Your message was sent successfully.
+                  </div>
+                </div>
+              </div>
+              <!-- form elements -->
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input name="name" type="text" placeholder="Your Name *" required />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input name="email" type="email" placeholder="Your Email *" required />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input name="phone" type="text" placeholder="Your Number *" required />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input name="subject" type="text" placeholder="Subject *" required />
+                </div>
+                <div class="col-md-12 form-group">
+                  <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
+                </div>
+                <div class="col-md-12">
+                  <button type="submit" class="butn-dark2">
+                    <span>Send Message</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Clients -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-column footer-about">
+              <h3 class="footer-title">About Hotel</h3>
+              <p class="footer-about-text">
+                Lhayhuel sits perched majestically along the heart of the Paro
+                Chhu, within the luscious village of Paro. Conveniently
+                located ten minutes from the Airport and yet the view of the
+                valley under your nose.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 offset-md-1">
+            <div class="footer-column footer-explore clearfix">
+              <h3 class="footer-title">Explore</h3>
+              <ul class="footer-explore-list list-unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="restaurant.html">Restaurant</a></li>
+                <li><a href="bar.html">Bar</a></li>
+                <li><a href="spa.html">Spa</a></li>
+                <li><a href="about.html">About Hotel</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-column footer-contact">
+              <h3 class="footer-title">Contact</h3>
+              <p class="footer-contact-text">
+                Bonday, Lung-Nyi Gewog <br />
+                Postal Code: 12001<br />
+                Paro, Bhutan.
+              </p>
+              <div class="footer-contact-info">
+                <p class="footer-contact-phone">
+                  <span class="flaticon-call"></span> +975 17171696
+                </p>
+                <p class="footer-contact-mail">info@lhayhuelhotel.com</p>
+              </div>
+              <div class="footer-about-social-list">
+                <a href="#"><i class="ti-instagram"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-youtube"></i></a>
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="section-subtitle">Our Services</div>
-            <div class="section-title">Hotel Facilities</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div
-              class="single-facility animate-box"
-              data-animate-effect="fadeInUp"
-            >
-              <span class="material-symbols-outlined"> brush </span>
-              <h5>Handicraft</h5>
-              <p>
-                Our tiny on site handicraft, despite its size offers a wide range of gift items, all handcrafted by Bhutanese Artisans.
-              <div class="facility-shape">
-                <span class="flaticon-world"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="single-facility animate-box"
-              data-animate-effect="fadeInUp"
-            >
-              <span class="flaticon-car"></span>
-              <h5>Parking Space</h5>
-              <p>
-                Our compact parking area, though modest in size, is designed to accommodate a variety of vehicles.
+            <div class="footer-bottom-inner">
+              <p class="footer-bottom-copy-right">
+                © Copyright 2022 by <a href="#">lhayhuel.com</a>
               </p>
-              <div class="facility-shape">
-                <span class="flaticon-car"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="single-facility animate-box"
-              data-animate-effect="fadeInUp"
-            >
-              <span class="material-symbols-outlined"> library_books </span>
-              <h5>Library/lobby</h5>
-              <p>
-                Our cozy library offers a carefully  selection of books for all, providing a serene space for reading and reflection.
-              </p>
-              <div class="facility-shape">
-                <span class="flaticon-bed"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="single-facility animate-box"
-              data-animate-effect="fadeInUp"
-            >
-              <span class="material-symbols-outlined"> sports_bar </span>
-              <h5>Bar</h5>
-              <p>
-                Amongst our three mini bars, our OUTDOOR bar, offers a wide range of vintage whiskies, and wines.
-              </p>
-              <div class="facility-shape">
-                <span class="flaticon-swimming"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="single-facility animate-box"
-              data-animate-effect="fadeInUp"
-            >
-              <span class="flaticon-wifi"></span>
-              <h5>Free wifi</h5>
-              <p>
-                Our complimentary Wi-Fi service ensures you stay connected effortlessly, with ultimate convenience wherever you need it
-              </p>
-              <div class="facility-shape">
-                <span class="flaticon-wifi"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="single-facility animate-box"
-              data-animate-effect="fadeInUp"
-            >
-              <span class="material-symbols-outlined"> mic_external_on </span>
-              <h5>Karaoke</h5>
-              <p>
-                Our karaoke setup offers endless fun with a wide selection of songs to choose and show your vocal talents.
-              </p>
-              <div class="facility-shape">
-                <span class="flaticon-breakfast"></span>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Team -->
-    <!-- Services -->
-    <section class="services section-padding">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-6 p-0 animate-box"
-            data-animate-effect="fadeInLeft"
-          >
-            <div class="img left">
-              <a href="dining.html"
-                ><img src="img\restaurant\rest.jpg" alt=""
-              /></a>
-            </div>
-          </div>
-          <div
-            class="col-md-6 p-0 bg-cream valign animate-box"
-            data-animate-effect="fadeInRight"
-          >
-            <div class="content">
-              <div class="cont text-left">
-                <div class="info">
-                  <h6>Discover</h6>
-                </div>
-                <h4>The Restaurant</h4>
-                <p>
-                  Our restaurant offers a diverse menu featuring both local and international cuisines, crafted with fresh, high-quality ingredients
-                </p>
-                <div class="butn-dark">
-                  <a href="dining.html"><span>Learn More</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="col-md-6 bg-cream p-0 order2 valign animate-box"
-            data-animate-effect="fadeInLeft"
-          >
-            <div class="content">
-              <div class="cont text-left">
-                <div class="info">
-                  <h6>Experiences</h6>
-                </div>
-                <h4>Spa Center</h4>
-                <p>
-                  Extending a wide range of massage options, we use local homeopathic oils which have been known for its healing properties.
+    </div>
+  </footer>
+  <!-- jQuery -->
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <script src="js/jquery-migrate-3.0.0.min.js"></script>
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/jquery.isotope.v3.0.2.js"></script>
+  <script src="js/pace.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scrollIt.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/YouTubePopUp.js"></script>
+  <script src="js/select2.js"></script>
+  <script src="js/datepicker.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
 
-                </p>
-                <div class="butn-dark">
-                  <a href="spa.html"><span>Learn More</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-md-6 p-0 order1 animate-box"
-            data-animate-effect="fadeInRight"
-          >
-            <div class="img">
-              <a href="spa-wellness.html"
-                ><img src="img/spa/bhutan.png" alt=""
-              /></a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="col-md-6 p-0 animate-box"
-            data-animate-effect="fadeInLeft"
-          >
-            <div class="img left">
-              <a href="bar.html"><img src="img/slider/8.jpg" alt="" /></a>
-            </div>
-          </div>
-          <div
-            class="col-md-6 p-0 bg-cream valign animate-box"
-            data-animate-effect="fadeInRight"
-          >
-            <div class="content">
-              <div class="cont text-left">
-                <div class="info">
-                  <h6>Modern</h6>
-                </div>
-                <h4>Refresing Bar</h4>
-                <p>
-                  Amongst our three mini bars, our OUTDOOR bar (the purple inn), offers a wide range of vintage whiskies, and wines from all over
-the world.
-
-                </p>
-                <div class="butn-dark">
-                  <a href="bar.html"><span>Learn More</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- News -->
-
-    <!-- Reservation & Booking Form -->
-    <section id="booking-Section" class="testimonials">
-      <div
-        class="background bg-img bg-fixed section-padding pb-0"
-        data-background="img/slider/1.jpg"
-        data-overlay-dark="2"
-      >
-        <div class="container">
-          <div class="row">
-            <!-- Reservation -->
-            <div class="col-md-5 mb-30 mt-30">
-              <p>
-                <i class="star-rating"></i><i class="star-rating"></i
-                ><i class="star-rating"></i>
-              </p>
-              <h5>
-                Each of our guest rooms feature a private bath, wi-fi, cable
-                television and include full breakfast.
-              </h5>
-              <div class="reservations mb-30">
-                <div class="icon color-1">
-                  <span class="flaticon-call"></span>
-                </div>
-                <div class="text">
-                  <p class="color-1">Reservation</p>
-                  <a class="color-1" href="tel:+975 17171696">+975 17171696</a>
-                </div>
-              </div>
-              <p>
-                <i class="ti-check"></i><small>Call us, it's toll-free.</small>
-              </p>
-            </div>
-            <!-- Booking From -->
-            <div class="col-md-5 mb-30 offset-md-1">
-              <h3 id="booking-Section">Get in Touch</h3>
-              <form method="post" class="contact__form" action="mail.php">
-                <!-- form message -->
-                <div class="row">
-                  <div class="col-12">
-                    <div
-                      class="alert alert-success contact__msg"
-                      style="display: none"
-                      role="alert"
-                    >
-                      Your message was sent successfully.
-                    </div>
-                  </div>
-                </div>
-                <!-- form elements -->
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input
-                      name="name"
-                      type="text"
-                      placeholder="Your Name *"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 form-group">
-                    <input
-                      name="email"
-                      type="email"
-                      placeholder="Your Email *"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 form-group">
-                    <input
-                      name="phone"
-                      type="text"
-                      placeholder="Your Number *"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 form-group">
-                    <input
-                      name="subject"
-                      type="text"
-                      placeholder="Subject *"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-12 form-group">
-                    <textarea
-                      name="message"
-                      id="message"
-                      cols="30"
-                      rows="4"
-                      placeholder="Message *"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="col-md-12">
-                    <button type="submit" class="butn-dark2">
-                      <span>Send Message</span>
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Clients -->
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="footer-column footer-about">
-                <h3 class="footer-title">About Hotel</h3>
-                <p class="footer-about-text">
-                  Lhayhuel sits perched majestically along the heart of the Paro
-                  Chhu, within the luscious village of Paro. Conveniently
-                  located ten minutes from the Airport and yet the view of the
-                  valley under your nose.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-3 offset-md-1">
-              <div class="footer-column footer-explore clearfix">
-                <h3 class="footer-title">Explore</h3>
-                <ul class="footer-explore-list list-unstyled">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="rooms.html">Rooms</a></li>
-                  <li><a href="restaurant.html">Restaurant</a></li>
-                  <li><a href="bar.html">Bar</a></li>
-                  <li><a href="spa.html">Spa</a></li>
-                  <li><a href="about.html">About Hotel</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="terms.html">Terms & Conditions</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="footer-column footer-contact">
-                <h3 class="footer-title">Contact</h3>
-                <p class="footer-contact-text">
-                  Bonday, Lung-Nyi Gewog <br />
-                  Postal Code: 12001<br />
-                  Paro, Bhutan.
-                </p>
-                <div class="footer-contact-info">
-                  <p class="footer-contact-phone">
-                    <span class="flaticon-call"></span> +975 17171696
-                  </p>
-                  <p class="footer-contact-mail">info@lhayhuelhotel.com</p>
-                </div>
-                <div class="footer-about-social-list">
-                  <a href="#"><i class="ti-instagram"></i></a>
-                  <a href="#"><i class="ti-twitter"></i></a>
-                  <a href="#"><i class="ti-youtube"></i></a>
-                  <a href="#"><i class="ti-facebook"></i></a>
-                  <a href="#"><i class="ti-pinterest"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="footer-bottom-inner">
-                <p class="footer-bottom-copy-right">
-                  © Copyright 2022 by <a href="#">lhayhuel.com</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- jQuery -->
-    <script src="js/jquery-3.6.3.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.min.js"></script>
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.isotope.v3.0.2.js"></script>
-    <script src="js/pace.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scrollIt.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/YouTubePopUp.js"></script>
-    <script src="js/select2.js"></script>
-    <script src="js/datepicker.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
 </html>
