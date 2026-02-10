@@ -1,6 +1,5 @@
 {
-    "cSpell.words": [
-        "Lhayhuel",
-        "Lhayuel"
-    ]
+  "cSpell.words": ["Lhayhuel", "Lhayuel"],
+  "liveServer.settings.port": 5501,
+  "snyk.advanced.autoSelectOrganization": true
 }
